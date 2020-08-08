@@ -27,9 +27,8 @@ os tipos:
 4. ALFABETO + CARACTERES ESPECIAIS;
 5. NUMEROS + CARACTERES ESPECIAIS;
 6. CARACTERES ESPECIAIS;
-\*. NUMEROS.
 
-\* qualquer outro numero.
+\* qualquer outro numero, será usado a opção 1.
 
 ## Roan Franklin :
 http://www.remf.com.br/
