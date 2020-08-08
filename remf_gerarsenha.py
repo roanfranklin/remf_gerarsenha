@@ -28,6 +28,7 @@ def ajuda():
     print('       6 = CARACTERES ESPECIAIS')
     print('         = NUMEROS')
     print(Style.RESET_ALL+' ')
+    quit()
 
 def checar_char(tipo):
     if tipo == 1:
@@ -55,14 +56,12 @@ def checar_char(tipo):
 def gerar_senha(t, tamanho, caracteres):
     if not enumero(t) or not enumero(tamanho):
         ajuda()
-        quit()
 
     if int(t) == 0:
         if len(caracteres) > 0:
             valores = caracteres
         else:
             ajuda()
-            quit()
     else:
         valores = checar_char(int(t))
         
